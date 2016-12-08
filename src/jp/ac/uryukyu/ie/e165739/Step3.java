@@ -9,9 +9,11 @@ public class Step3 {
             String str = "3．14";
             double value = Double.parseDouble(str);
         }catch (NullPointerException e) {
+            //NullPointerExceptionの場合
             System.out.println("エラー(NullPointerException)が発生しました。");
             e.printStackTrace();
-        }catch (NumberFormatException e) {
+        }catch (NumberFormatException e) {  
+            //NumberFormatExceptionの場合
             System.out.println("エラー(NumberFormatException)が発生しました。");
             e.printStackTrace();
         }

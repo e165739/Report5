@@ -9,8 +9,9 @@ public class Step2 {
             String str = null;
             System.out.println(str.length());
         }catch (NullPointerException e) {
+            //NullPointerExceptionの場合
             System.out.println("エラー(NullPointerException)が発生しました。");
-            e.printStackTrace();
+            e.printStackTrace();  //直前に実行していた関数やメソッドを表示
         }
     }
 }
